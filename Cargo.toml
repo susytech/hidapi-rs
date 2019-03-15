@@ -1,0 +1,20 @@
+[package]
+name = "hidapi"
+version = "0.3.1"
+authors = [
+    "Roland Ruckerbauer <roland.rucky@gmail.com>",
+    "Osspial <osspial@gmail.com>",
+    "Artyom Pavlov <newpavlov@gmail.com>"]
+repository = "https://github.com/Osspial/hidapi-rs"
+description = "Rust-y wrapper around hidapi"
+license = "LGPL-3.0+"
+keywords = ["hid", "api", "usb","binding", "wrapper"]
+build = "build.rs"
+links = "hidapi"
+documentation = "https://beta.docs.rs/hidapi"
+
+[dependencies]
+libc = "0.2.15"
+
+[build-dependencies]
+cc = "1.0"
